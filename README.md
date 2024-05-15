@@ -1,7 +1,5 @@
 # Backup-system
 
-# Backup-Verwaltungsprogramm
-
 Dieses Backup-Verwaltungsprogramm ermöglicht es dem Benutzer, Backups zu erstellen, zu löschen, aufzulisten und nach bestimmten Dateien in den Backups zu suchen. Es bietet eine einfache Benutzeroberfläche über die Kommandozeile.
 
 ## Voraussetzungen
