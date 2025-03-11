@@ -1,29 +1,29 @@
-# Backup-system
+# Backup System
 
-Dieses Backup-Verwaltungsprogramm ermöglicht es dem Benutzer, Backups zu erstellen, zu löschen, aufzulisten und nach bestimmten Dateien in den Backups zu suchen. Es bietet eine einfache Benutzeroberfläche über die Kommandozeile.
+This backup management program allows the user to create, delete, list, and search for specific files in backups. It provides a simple command-line interface.
 
-## Voraussetzungen
+## Requirements
 
 - Bash
-- unzip (für die Funktion "Bestimmtes File in Backup suchen")
+- unzip (for the "Search for specific file in backup" feature)
 
-## Anleitung
+## Instructions
 
-1. Führen Sie das Skript in Ihrer Bash-Umgebung aus.
-2. Das Skript führt Sie durch ein Menü mit verschiedenen Optionen zur Verwaltung von Backups.
-3. Wählen Sie eine der verfügbaren Optionen aus, indem Sie die entsprechende Zahl eingeben.
-4. Folgen Sie den Anweisungen für jede Option.
+1. Run the script in your Bash environment.
+2. The script will guide you through a menu with various options for managing backups.
+3. Select one of the available options by entering the corresponding number.
+4. Follow the instructions for each option.
 
-## Funktionen
+## Features
 
-1. **Backup erstellen**: Erstellt ein Backup eines angegebenen Verzeichnisses.
-2. **Backup löschen**: Löscht ein vorhandenes Backup aus dem Backup-Verzeichnis.
-3. **Backup auflisten**: Zeigt alle vorhandenen Backups im Backup-Verzeichnis an.
-4. **Bestimmtes File in Backup suchen**: Sucht nach einer bestimmten Datei in den vorhandenen Backups und zeigt an, in welchem Backup sie gefunden wurde.
-5. **Hilfe anzeigen**: Zeigt eine Hilfe mit einer Übersicht über die verfügbaren Optionen an.
-6. **Programm beenden**: Beendet das Backup-Verwaltungsprogramm.
+1. **Create Backup**: Creates a backup of a specified directory.
+2. **Delete Backup**: Deletes an existing backup from the backup directory.
+3. **List Backups**: Lists all existing backups in the backup directory.
+4. **Search for Specific File in Backup**: Searches for a specific file in existing backups and shows in which backup it was found.
+5. **Show Help**: Displays help with an overview of the available options.
+6. **Exit Program**: Exits the backup management program.
 
-## Hinweise
+## Notes
 
-- Das Backup-Verzeichnis wird standardmässig im Home-Verzeichnis des Benutzers erstellt, falls es noch nicht vorhanden ist.
-- Wenn eine Datei im Backup gefunden wird, wird nur angezeigt, in welchem Backup sie gefunden wurde. Es werden keine Dateien extrahiert.
+- The backup directory is created in the user's home directory by default if it doesn't already exist.
+- When a file is found in a backup, only the backup in which it was found will be shown. No files will be extracted.
